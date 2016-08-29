@@ -1,8 +1,8 @@
 syntax "python" "\.py$" "jhbuildrc$"
 header "^#!.*/(env +)?python[-0-9._]*( |$)"
 
-KEYWORD:  "\<(as|assert|break|class|continue|def|del|elif|else|except)\>"
-KEYWORD:  "\<(exec|finally|for|from|global|if|import|lambda)\>"
+KEYWORD:  "\<(as|assert|async|await|break|class|continue|def|del|elif)\>"
+KEYWORD:  "\<(else|except|exec|finally|for|from|global|if|import|lambda)\>"
 KEYWORD:  "\<(pass|print|raise|return|try|while|with|yield|None)\>"
 +FUNCTION
 OPERATOR: "[-+*/|=%<>&~^]|\<(and|not|or|is|in)\>"
